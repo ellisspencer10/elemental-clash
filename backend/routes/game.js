@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const Player = require('../models/Player');
-const Card = require('../models/Card');
-const authenticateToken = require('/C:\Users\Ellis\Documents\GitHub\elemental-clash\backend\Middleware\authenticateToken.js');  // Correct path
+const Player = require('backend/models/Player.js');
+const Card = require('backend/models/Card.js');
+const authenticateToken = require('backend/Middleware/authenticateToken.js');  // Correct path
 
 
 // Route to start a game for a player (fetch player's cards and simulate an opponent)
