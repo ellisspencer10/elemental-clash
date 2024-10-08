@@ -7,8 +7,8 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@models/*": ["backend/models/*"],
-      "@routes/*": ["backend/routes/*"],
+      "@models/*": ["src/models/*"],
+      "@routes/*": ["src/routes/*"],
       "@middleware/*": ["backend/Middleware/*"]
     },
     "resolveJsonModule": true,
@@ -17,6 +17,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["C:/Users/Ellis/Documents/GitHub/elemental-clash/backend/src"],  // Adjusted include path
+  "include": ["src/**/*.ts"],  // Adjusted include path
   "exclude": ["node_modules"]
 }
