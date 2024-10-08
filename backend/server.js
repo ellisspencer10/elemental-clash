@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();  // Load .env file
 
+
 const gameRoutes = require('./routes/game');  // Import game routes
 
 const app = express();
